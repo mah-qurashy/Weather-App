@@ -1,0 +1,92 @@
+.main_headertext {
+    font-family: 'Segoe UI Light';
+    font-size: 40px;
+    margin: 0px;
+    padding: 15px
+}
+h1{
+    font-family: 'Segoe UI Light';
+    font-size: 30px;
+}
+.profile {
+    width: 150px;
+    margin: 50px
+}
+
+.bodytext{
+    font-family: 'Segoe UI'
+}
+._404 {
+    width: 480px
+
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height:600px
+}
+.main_header{
+    float: center;
+    text-align: center;
+    width: 620px;
+    background-color: #35a785;
+    margin: 0 auto;
+    color: white;
+}
+.links{
+    float: center;
+    text-align: center;
+    width: 620px;
+    background-color: #ECECEC;
+    margin: 0 auto;
+    color: white;
+    padding: 10px 0
+    
+}
+footer{
+    float: center;
+    text-align: center;
+    width: 620px;
+    margin: 15px auto;
+    border-top: 1px solid #B0B0B0;
+    color: #808080
+}
+.linkstext,.linkstext:active,.linkstext:visited{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px
+}
+.linkstext:hover,
+.linkstext:visited:hover{
+    color: #35a785;
+    background-color: #E0E0E0
+}
+
+.linkstext:active,
+.linkstext:visited:active
+{
+    color: #259775;
+    background-color: #D0D0D0
+}
+.main_content{
+    flex-grow: 1;
+    width: 620px;
+    margin: 0 auto;
+    
+}
+#msg1,#msg2{
+
+    font-family: 'Segoe UI Light';
+    font-size: 28px;
+    margin: 15px
+}
+button,input{
+    font-family: 'Segoe UI Light';
+    font-size: 20px;
+    padding:6px;
+    margin: 48px 0
+}
