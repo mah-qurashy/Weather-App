@@ -10,7 +10,7 @@ h1{
 }
 .profile {
     width: 150px;
-    margin: 50px
+    margin: 30px
 }
 
 .bodytext{
@@ -88,5 +88,10 @@ button,input{
     font-family: 'Segoe UI Light';
     font-size: 20px;
     padding:6px;
-    margin: 48px 0
+    margin: 48px 0;
+    margin-bottom: 32px
+}
+p{
+    font-family: 'Segoe UI Light';
+    font-size: 20px;
 }

@@ -12,7 +12,7 @@ const getweather = ({lat,long,name}, callback) => {
                     info: body.error.info + ' - code: ' + body.error.code
                 })
             } else {
-                callback(undefined, body.current.weather_descriptions[0] + '. Its currently ' + body.current.temperature + ' degrees out. It feels like ' + body.current.feelslike + ' degrees out.')
+                callback(undefined, {text: body.current.weather_descriptions[0] + '. Its currently ' + body.current.temperature + ' degrees out. It feels like ' + body.current.feelslike + ' degrees out.',imageurl:body.current.weather_icons[0]})
             }
         } else {
             callback({
