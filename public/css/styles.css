@@ -1,95 +1,104 @@
-.main_headertext {
-    font-family: 'Segoe UI Light';
-    font-size: 40px;
-    margin: 0px;
-    padding: 15px
-}
-h1{
-    font-family: 'Segoe UI Light';
-    font-size: 30px;
-}
-.profile {
-    width: 150px;
-    margin: 30px
-}
-
 .bodytext{
     font-family: 'Segoe UI'
 }
 ._404 {
-    width: 480px
+    width: 512px;
+    margin-top: 48px
+}
+._404text{
 
+    font-family: 'Segoe UI Light';
+    font-size: 24px;
+    margin: 15px
 }
 body{
     margin: 0 auto;
     text-align: center;
     display:flex;
     flex-direction: column;
-    min-height:600px
+    min-height:100vh
 }
 .main_header{
     float: center;
     text-align: center;
-    width: 620px;
-    background-color: #35a785;
     margin: 0 auto;
-    color: white;
+    color: #4a5bff;
+    margin-top: 24vh;
 }
-.links{
-    float: center;
-    text-align: center;
-    width: 620px;
-    background-color: #ECECEC;
-    margin: 0 auto;
-    color: white;
-    padding: 10px 0
-    
+.main_headertext {
+    font-family: 'Segoe UI Light';
+    font-size: 48px;
+    margin: 0px;
+    padding: 15px
 }
 footer{
     float: center;
     text-align: center;
-    width: 620px;
-    margin: 15px auto;
+    width:  920px;
+    margin: 5px auto;
     border-top: 1px solid #B0B0B0;
-    color: #808080
+    color: #808080;
+    display: flex;
+}
+.links{
+    float:left;
+    text-align: left;
+    color: white;
+    padding: 10px 0
 }
 .linkstext,.linkstext:active,.linkstext:visited{
     font-family: 'Segoe UI';
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     padding: 10px
 }
 .linkstext:hover,
 .linkstext:visited:hover{
-    color: #35a785;
-    background-color: #E0E0E0
+    color: #4a5bff;
+    background-color: #F6F6F6
 }
 
 .linkstext:active,
 .linkstext:visited:active
 {
-    color: #259775;
-    background-color: #D0D0D0
+    color: #3a4bEf;
+    background-color: #F0F0F0
+}
+.footercreated{
+    float:right;
+    text-align:  right;
+    flex-grow: 1;
+    padding: 10px 
 }
 .main_content{
     flex-grow: 1;
-    width: 620px;
+    width: 800px;
     margin: 0 auto;
     
 }
 #msg1,#msg2{
 
     font-family: 'Segoe UI Light';
-    font-size: 28px;
-    margin: 15px
+    font-size: 24px;
+    margin: 15px;
+    margin-top:36px
 }
 button,input{
     font-family: 'Segoe UI Light';
     font-size: 20px;
     padding:6px;
-    margin: 48px 0;
-    margin-bottom: 32px
+    margin: 42px 0;
+}
+input{
+    width: 380px
+}
+button{
+    width:96px
+}
+::placeholder{
+    font-style: italic;
+    opacity:0.6
 }
 p{
     font-family: 'Segoe UI Light';

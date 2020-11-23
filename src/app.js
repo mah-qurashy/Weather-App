@@ -16,20 +16,20 @@ app.use(express.static(path.join(__dirname, '../public')))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather app',
-        name: 'Mq'
+        name: 'Mahmoud Qurashy'
     })
 })
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About page',
-        name: 'Mq'
+        name: 'Mahmoud Qurashy'
     })
 
 })
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help page',
-        name: 'Mq'
+        name: 'Mahmoud Qurashy'
     })
 })
 app.get('/weather', (req, res) => {
@@ -69,9 +69,9 @@ app.get('/help/*', (req, res) => {
 })
 app.get('*', (req, res) => {
     res.render('404', {
-        title: 'Weather app',
+        title: 'Page not found.',
         error: 'Page not found.',
-        name: 'Mq'
+        name: 'Mahmoud Qurashy'
     })
 })
 
